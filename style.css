@@ -1,0 +1,146 @@
+body {
+  font-size: 19;
+}
+h1 {
+  padding-top: 60px;
+  padding-left: 100px;
+  color: rgb(79, 26, 179);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+}
+.top {
+  height: 150px;
+}
+.top1 {
+  float: left;
+  width: 70%;
+}
+.top2 {
+  float: left;
+  width: 30%;
+}
+img {
+  width: 8cm;
+  padding-top: 1.5cm;
+}
+
+.line {
+  font-size: 22;
+  padding-top: 2cm;
+  padding-left: 2cm;
+  height: 700px;
+}
+.line1 {
+  float: left;
+  width: 30%;
+  height: 200px;
+}
+.line2 {
+  width: 30%;
+  height: 200px;
+  float: left;
+}
+.fa {
+  padding: 10px;
+  font-size: 36px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.8;
+}
+
+.fa-whatsapp {
+  background: rgb(41, 196, 36);
+  color: white;
+  border-radius: 12px;
+}
+.fa-linkedin {
+  background: rgb(65, 106, 219);
+  color: white;
+  border-radius: 12px;
+}
+.fa-youtube {
+  background: rgb(223, 21, 21);
+  color: white;
+  border-radius: 12px;
+}
+.fa-instagram {
+  background: linear-gradient(rgb(127, 12, 138), rgb(212, 77, 99), yellow);
+  color: white;
+  border-radius: 12px;
+}
+.fa-facebook {
+  background: rgb(86, 86, 179);
+  color: white;
+  border-radius: 12px;
+}
+.fa-telegram {
+  background: rgb(72, 163, 190);
+  color: white;
+  border-radius: 12px;
+}
+.line3 {
+  background-color: rgb(43, 7, 126);
+  float: left;
+  width: 0.2%;
+  height: 9.6cm;
+}
+.line4 {
+  padding: 16px;
+  padding-right: 50px;
+  width: 30%;
+  float: left;
+}
+.line4 m {
+  color: rgb(77, 54, 129);
+}
+@media screen and (max-width: 700px) {
+  .top {
+    height: 5cm;
+    font-size: 10;
+    display: grid;
+  }
+  h1 {
+    padding-top: 1cm;
+    padding-left: 1cm;
+    font-size: 14;
+  }
+  .top1 {
+    height: 2cm;
+  }
+  .top2 {
+    height: 2cm;
+  }
+  img {
+    padding-left: 1cm;
+    width: 5cm;
+  }
+  .line {
+    padding-left: 0px;
+    height: 24cm;
+    font-size: 16;
+  }
+  .fa {
+    font-size: 18;
+    width: 15px;
+  }
+  .line1 {
+    float: bottom;
+    width: 100%;
+  }
+  .line2 {
+    float: bottom;
+    width: 100%;
+  }
+  .line3 {
+    background-color: rgb(43, 7, 126);
+    float: bottom;
+    height: 0%;
+  }
+  .line4 {
+    padding-left: 3px;
+  }
+}
